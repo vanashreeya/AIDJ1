@@ -66,7 +66,14 @@ function draw()
             document.getElementById("music").innerHTML="Playing Peter-Pan song"
         }
     }
-    if(scoreleftWrist>0.2)
+
+    function play() 
+{
+    music1.play();
+}
+
+    
+    if(scorerightWrist>0.2)
     {
         circle(rightWristX,rightWristY,20);
 
